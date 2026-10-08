@@ -1,12 +1,13 @@
 cask "sakina" do
-  version "0.1.0"
-  sha256 "cc7833cedc706932f7785c2ca50e876941511aed301f6101581ace2b033835cd"
+  version "0.1.1"
+  sha256 "91be9ed73b4b5432455cdc2f8c04c89ff5e7e9bc25bf5e424eb7bfe4cea3c62e"
 
   url "https://github.com/asadalihaider/pray-with-sakina/releases/download/v#{version}/Sakina.zip"
   name "Sakina"
   desc "Prayer companion that lives in the menu bar"
   homepage "https://github.com/asadalihaider/pray-with-sakina"
 
+  auto_updates true
   depends_on macos: :ventura
 
   app "Sakina.app"
