@@ -1,6 +1,6 @@
 cask "sakina" do
-  version "0.1.3"
-  sha256 "514932422b272d31bf27fb68167648028f0a96a583ed678b4163a6658d7fd8f8"
+  version "0.1.4"
+  sha256 "361a7a4cbd6c22a4f90ea989bc313fccc4e009d195b9308727c83cf6661aac50"
 
   url "https://github.com/asadalihaider/pray-with-sakina/releases/download/v#{version}/Sakina.zip"
   name "Sakina"
